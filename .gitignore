@@ -1,11 +1,15 @@
-# ignora todo por defecto
-/* 
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# Ignorar la carpeta venv (entorno virtual)
 venv/
 
-# instancias a no ignorar
+# No ignorar estos archivos y carpetas
 !/src/
 !/README.md
 !/main.py
 !/.gitignore
 !/Requirements.txt
+

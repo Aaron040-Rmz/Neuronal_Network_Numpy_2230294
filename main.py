@@ -1,9 +1,4 @@
-from src.numpy_1 import train_neural_network
+from src.Neuronal_Network_Numpy import train_neural_network
 
-def main():
-
-    params = train_neural_network() # Llamar a la función de entrenamiento desde red_2.py
-    print(params) 
-        
 if __name__ == "__main__":
-    main()
+    train_neural_network()  # Llama a la función para entrenar la red neuronal
